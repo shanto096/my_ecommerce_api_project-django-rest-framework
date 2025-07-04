@@ -4,6 +4,7 @@ This is a RESTful API for an e-commerce platform built with Django and Django RE
 
 ## Project Structure
 
+'''
 my_ecommerce_api_project/
 ├── my_ecommerce_api/          # Main Django project directory
 │   ├── manage.py              # Django's command-line utility
@@ -52,7 +53,7 @@ my_ecommerce_api_project/
 │   └── media/                 # Directory for user-uploaded files (e.g., product images)
 └── venv/                      # Python Virtual Environment
 
-
+'''
 ## API Routes (Endpoints)
 
 All API endpoints are prefixed with `/api/`. The base URL for the API is `http://127.0.0.1:8000/api/`.
@@ -145,9 +146,9 @@ These endpoints are included under the `/api/` prefix.
     * **macOS/Linux:** `source venv/bin/activate`
 4.  **Install dependencies:**
     ```bash
-    pip install -r requirements.txt # (assuming you have a requirements.txt)
+    pip install -r requirements.txt
     ```
-    *If you don't have `requirements.txt`, you'll need to install the packages you've used manually. Create a `requirements.txt` file in your `my_ecommerce_api` directory with the following content and then run the command above:*
+    *If you don't have a `requirements.txt` file, create one in your `my_ecommerce_api` directory with the following content, then run `pip install -r requirements.txt`:*
     ```
     Django>=4.0
     djangorestframework
