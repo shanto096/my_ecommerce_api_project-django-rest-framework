@@ -4,7 +4,7 @@ This is a RESTful API for an e-commerce platform built with Django and Django RE
 
 ## Project Structure
 
-'''
+```
 my_ecommerce_api_project/
 ├── my_ecommerce_api/          # Main Django project directory
 │   ├── manage.py              # Django's command-line utility
@@ -52,8 +52,7 @@ my_ecommerce_api_project/
 │   │   └── views.py           # ViewSet for Orders
 │   └── media/                 # Directory for user-uploaded files (e.g., product images)
 └── venv/                      # Python Virtual Environment
-
-'''
+```
 ## API Routes (Endpoints)
 
 All API endpoints are prefixed with `/api/`. The base URL for the API is `http://127.0.0.1:8000/api/`.
